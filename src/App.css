@@ -3,13 +3,38 @@ body {
   background-size: 100% ;
   background-image:url(https://1.bp.blogspot.com/-QCd-l7fvuLg/W12B-nJgLsI/AAAAAAAABDU/oE9veBzFHIAsYJNY82cQTMUCgmncIXjoQCLcBGAs/s1600/anh-dep-thap-landmark-81-pkientruc%2B%25288%2529.jpg)  ;
 }
-h1{
+.style-h1{
   font-weight: bold;
   font-size: 100px;
+  font-family: fantasy;
+  color: rgb(0, 255, 255);
 }
 .color-1{
-  color:black;
+  color:rgb(252, 251, 245);
+  font-weight:bold;
+  font-size: 60px;
+}
+.color-2{
+  color:rgb(32, 240, 94);
+  font-weight:bolder;
+  font-size: 50px;
+}
+.color-3{
+  ccolor:rgb(252, 251, 245);
+  font-weight:bold;
+  font-size: 40px;
 }
 .card-style1{
-  background-color: rgba(10, 255, 235, 0.7)
+  background-color: rgba(58, 153, 231, 0.7)
+}
+.style-loading{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
 }
