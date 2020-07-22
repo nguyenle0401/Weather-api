@@ -46,7 +46,7 @@ export default class App extends Component {
 
     async getWeather(latitude, longitude) {
         console.log('getWeather')
-        const url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apikey}&units=metric`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apikey}&units=metric`;
         let response = await fetch(url);
         let data = await response.json();
         console.log('data:',data)
@@ -70,7 +70,7 @@ export default class App extends Component {
     // 1.Change city
     // 2. Change current location
     callWeather = async (name) => {
-        let url = `http://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${apikey}&units=metric`
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${apikey}&units=metric`
         let data = await fetch(url)
         let result = await data.json()
         console.log("result", result)
