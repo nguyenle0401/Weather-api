@@ -1,4 +1,15 @@
 body {
-  height: 100%;
-  background-color: black;
+ 
+  background-size: 100% ;
+  background-image:url(https://1.bp.blogspot.com/-QCd-l7fvuLg/W12B-nJgLsI/AAAAAAAABDU/oE9veBzFHIAsYJNY82cQTMUCgmncIXjoQCLcBGAs/s1600/anh-dep-thap-landmark-81-pkientruc%2B%25288%2529.jpg)  ;
+}
+h1{
+  font-weight: bold;
+  font-size: 100px;
+}
+.color-1{
+  color:black;
+}
+.card-style1{
+  background-color: rgba(10, 255, 235, 0.7)
 }
